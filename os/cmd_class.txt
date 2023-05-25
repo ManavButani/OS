@@ -1,0 +1,246 @@
+mkdir
+cd ..
+cd /
+cd dirr1/
+pwd
+mk dirr2
+cd dirr2/
+1.touch  2.cat 3.vi 4.cv
+touch file1
+touch file2 file3
+ls
+cp file2 file4
+ls
+cp file2 /home/manav
+clear
+vi fff
+press i for insert mode
+press esc
+:wq
+cat fff
+cat > file5
+cat file5
+passwd
+find . -name "file5"
+. means current directory
+/ mean root
+locate fff
+locate command search in database
+su -
+this for update dattabase
+locate fff
+su - manav
+rm file
+rmdir dirr1 #error
+rm -r dirr1
+touch abcd{1..9}-xyz
+ls -l abc*
+rm a*
+rm *xyz
+ls -l ?bcd*
+ls -l **[cd]**
+rm **xy**
+
+cd /tmp
+ln -s  path
+ls -ltr
+rm path
+then check for soft link
+
+mkdir k
+cd k
+cat >abcdef
+cd tmp/
+ln -s path of abcdef
+ls -ltri
+
+#####
+
+echo "Heloo work" > a1
+echo "hello" >> a1
+ls -i
+cat a2
+cat a4
+echo "mannah" >> a2
+cat a2
+cat a4
+ls -l
+mkdir prac3
+ls -l
+chmod ugo+rwx a1
+ls -l
+chmod go-wx a1
+ls -l
+chmod ugo-x pra3/
+cd prac3/
+cd ..
+chmod u-x a1
+ls -l
+cat a1
+echo " hell" > a1
+cat a1
+mv a1 ../
+ls
+cd..
+mv a1 os/
+cd os
+ls
+gedit a1
+cat a1
+chmod u-r a1
+ls -l
+rm b1
+ls -l
+chmod 777 a1
+ls -l
+chmod 754 a1
+ls -l
+su -
+ls
+cd /
+ls -l
+echo hello > permission
+chmod u+x permission
+ls -l
+getfacl permission
+rwx
+r--
+r--
+setfacl -m "u:admin:w" permission
+getfacl permission
+
+setfacl -m "u:admin:rw" permission
+getfacl permission
+
+su -
+su -
+useradd 19it016
+passwd 19it016
+cat  /etc/passwd
+adduser
+exit
+su -
+ls
+echo "  banom" > a1
+ln a1 a3
+ls -ln
+###########
+cat state
+cut -c1 state
+cut -c1-3 state
+cut -c1,3,5 state
+cut -c1-3,6-8 state
+ls -l
+ls -l | cut -c1-11
+cat state
+cat state | cut -c1-3
+cat /etc/passwd
+cut -c
+clear
+cut d: -f 6 /etc/passwd
+cat state
+cut d" " -f 1 state
+cut d" " -f 2 state
+awk '{ print $1 }' state
+awk '{ print $0 }' state
+awk '{ print $2 }' state
+awk '{ print $3 }' state
+ls -l
+ls -l | awk '{ print $1 ,$3 }'
+ls -l | awk '{ print $9 }'
+ls -l | awk '{ print $NF }'
+cat /etc/passwd
+awk -F:  ' {print $6}' /etc/passwd
+echo "hello a1"
+echo "hello a1" | awk '$2="students;"; print $0}'
+
+ls -l
+cat city
+cat city | awk '$1="changa"; print $0}'
+cat city | awk '$1="changa"; print $0}' | cat > output
+cat city | awk '$1="changa"; print $0}' |  > op
+echo "hello" > op1
+cat op1
+grep goa state
+grep Goa state
+grep -i goa state
+grep -c Goa state
+grep -c Pradesh state
+grep -ci Pradesh state
+grep -n Pradesh state
+grep -ni pradesh state
+ls -l
+ls -l | grep -i city
+ls -l | grep -i city | awk '{ print $NF }'
+ls -l | grep -i city | awk '{ print $NF }'  > op3
+cat op3
+history
+!863
+ls -l | grep -in city
+grep -i gujrat state
+cd ..
+ls
+grep pradesh /os
+
+###########
+sort state
+man sort
+sort -r state
+cat state
+sort -k2 state
+ls
+cat city
+uniq city
+sort city |  uniq
+sort city |  uniq   -d
+sort city |  uniq   -c
+wc state
+13 21 149 state
+wc -l state
+wc -w state
+wc prac3/
+wc scripting/
+ls -l | wc -l
+grep -i pradesh state
+grep -i pradesh state | wc -l
+grep -ic pradesh state
+cmp file1 file2
+diff file1 fille2
+cmp -c file1 file2
+diff -c file1 file2
+diff -u file1 file2
+diff file1 file2
+ls
+man tar
+tar  -cf combine.tar .
+ls -l
+gzip combine.tar.gzip
+gzip combine.tar
+ls -l
+mkdir os1
+mv combine.tar.gz os1
+cd os1
+ls
+gzip -d combine.tar.gzls 
+tar -xf combine.tar
+zip
+rm -r os1
+ls -l
+truncate -s 30 city
+cat city
+truncate -s 30 city
+cat a1 a2 a3 a4 > a5
+cat a5
+split
+man split
+split -l 3 a5 new
+cat newaa
+cat newab
+cat newac 
+
+###
+man tar
+tar cvf
+tar xvf
+
+

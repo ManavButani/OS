@@ -1,0 +1,9 @@
+https://linuxize.com/post/who-command-in-linux/
+
+https://linuxize.com/post/last-command-in-linux/
+
+https://linuxize.com/post/w-command-in-linux/
+
+https://www.geeksforgeeks.org/finger-command-in-linux-with-examples/#:~:text=Finger%20command%20is%20a%20user,cases%20their%20email%20address%20even.
+
+https://linuxize.com/post/id-command-in-linux/
